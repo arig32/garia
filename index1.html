@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+  <head>
+    <style>
+      body{
+        background-image: url('background.jpg');
+        font-family: 'Courier New', Courier, monospace;
+      }
+      h1 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        background: linear-gradient(to bottom right, #fff0bd 0%, #fae1ed 100%);
+        padding: 15px;
+        border-radius: 20px ;
+        border: 4px solid rgb(0, 0, 0)
+      
+      }
+
+      h2 {
+        text-align: center;
+        border-radius: 10px;
+        background-color: rgb(235, 187, 187);
+        border: 3px solid black;
+        padding: 25px;
+        background: linear-gradient(to bottom, rgb(25rgb(201, 159, 82), 221), rgb(201, 167, 106), orange)
+      }
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+        
+      }
+      
+      a{
+        color:black;
+       }
+      a:visited{
+        color: black;
+      }
+
+      button {
+        width: 100%;
+        background: linear-gradient(to bottom right, #fff0bd 0%, #fae1ed 100%);
+        color: rgb(201, 135, 135);
+        border: none;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 30px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        margin: 20px 0;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+        
+      }
+
+.bigText{
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  nav-right: current;
+  background-color: peachpuff;
+}
+
+.header{
+  text-align: center;
+        border-radius: 10px;
+        border: 1px solid rgb(127, 247, 231);
+        padding: 25px;
+        background-color: aquamarine;
+}
+
+.page{
+  background-color: rgb(236, 201, 201);
+}
+
+.imageBox{
+background-image: url('movingsunset.gif');
+  float: left;
+   width: 48%;
+    height: 500px; 
+    text-align: center; 
+    vertical-align: middle; 
+    border: 4px solid rgb(0, 0, 0);
+    font-size: 20px; 
+    font-style: italic; 
+  margin-right: 10px;
+}
+   
+
+.imageBox2 { 
+  background-image: url('tumblr.gif');
+  float: left; 
+   width: 48%;
+    height: 500px; 
+    text-align: center; 
+    vertical-align: middle; 
+    border: 4px solid rgb(0, 0, 0);
+    font-size: 30px; 
+    font-style: italic; 
+   
+
+}
+
+.page{
+  max-width: 800px;
+  margin: auto;
+}
+
+    </style>
+  </head>
+  <body>
+
+      <div class='page'>
+      
+      <h1>Ariana's Portfolio</h1>
+
+      
+    
+    <h2 class="bigText"> 
+     Enjoy a gif of a <a href='https://en.wikipedia.org/wiki/Sunset_Boulevard' target="_bank">sunset</a> ~~
+    </h2>
+
+    
+    
+
+    <div class="imageBox">
+      Welcome To My Portfolio! 
+    </div>
+
+    <div class="imageBox2">
+       ¯\_( ͡❛ ͜ʖ ͡❛)_/¯
+    </div>
+
+    <div style="clear: both;">&nbsp;</div>
+
+    <h2> Apps 2 </h2>
+
+    <p class="bigText">
+     Hi! I am Ariana. I'm currently a freshman learning how to code. I will begin by coding in html, python, and javascript. 
+     I will be storing the links to all my apps in this portfolio page. I will be attempting to create a game of flappy bird, a calculator, and a clock.
+     Let's see how it goes!!!!
+    </p>
+
+    <br />
+    <br />
+    <a href="https://www.shecodes.io/">
+      Link To SheCode.io
+    </a>
+
+    <button>
+      Go to a Coding Workshop
+    </button>
+    <footer>
+      Coded by Ariana Gutierrez
+      <a href="https://www.shecodes.io">
+        SheCodes
+      </a>
+    </footer>
+
+    
+  </div>
+
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        prompt("What is your email address?");
+
+        alert(
+          `Thanks, ${name}! We'll be in touch! Meanwhile, don't forget to breathe 🧘‍♀️`
+        );
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
